@@ -1,0 +1,48 @@
+$bg-primary: #ebebf1;
+$primary: #039be5;
+$success: #0adb11;
+$primary-dark: #044565;
+$secondary: #ffc107;
+$danger: #fa1616;
+$text: #000000;
+$light-grey: #e3e3e3;
+
+.text_align {
+  font-size: 11px;
+  padding: 1rem;
+  margin-top: -2.7%;
+}
+
+.prodField {
+  display: flex;
+}
+
+body{
+  background-color: #000000;
+}
+
+
+.headerPaper{
+  background-color: #201f1f;
+  color: #0adb11;
+}
+
+text{
+  font-size: 150%;
+}
+
+input{
+  width: 30%;
+  height: 120%;
+  text-align: center;
+  font-size: x-large;
+  background-color: #000000;
+  color: #0adb11;
+  border-color: #000000;
+}
+
+table, th, td {
+  border: 1px solid #0adb11;
+  border-collapse: collapse;
+  background-color: #000000;
+}

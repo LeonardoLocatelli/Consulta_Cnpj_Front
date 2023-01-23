@@ -1,0 +1,22 @@
+$bg-primary: #ebebf1;
+$primary: #039be5;
+$primary-dark: #044565;
+$secondary: #ffc107;
+$success: #09d610;
+$danger: #fa1616;
+$text: #393e46;
+$light-grey: #e3e3e3;
+
+$screen-breakpoint: 1152px;
+
+@mixin small {
+  @media (max-width: #{$screen-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin large {
+  @media (min-width: #{$screen-breakpoint + 1}) {
+    @content;
+  }
+}
